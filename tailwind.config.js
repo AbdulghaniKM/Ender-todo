@@ -10,6 +10,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '475px',
+        'sm': { 'max': '639px' },
+      },
       colors: {
         'blue-chill': {
         '50': '#f2f9f9',
